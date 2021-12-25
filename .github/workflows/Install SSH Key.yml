@@ -3,3 +3,4 @@ steps:
     uses: shimataro/ssh-key-action@v2
     with:
       key: ${{ secrets.SSH_PRIVATE_KEY }} 
+      known_hosts: 'just-a-placeholder-so-that-we-dont-get-any-error'
