@@ -1,8 +1,8 @@
+on:
 name: CI-SFTP
-  on:
-    push:
-      branches:
-        - main
+push:
+branches:
+- main
 
           
       # Allows you to run this workflow manually from the Actions tab
