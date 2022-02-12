@@ -1,31 +1,29 @@
-on:
-name: CI-SFTP
-push:
-branches:
-- main
+name: continuous deployment
+on: 
+  push:
+    branches:
+      - master
 
-    # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-    jobs:
-      # This workflow contains a single job called "SFTP"
-      deploy-via-sftp:
-      runs-on: ubuntu-latest
-      steps:
-        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-        - uses: actions/checkout@v2
+jobs:
+  deploy_job:
+    runs-on: ubuntu-latest
+    
+    name: build&deploy
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-        - name: SFTP Deploy
-          uses: wlixcc/SFTP-Deploy-Action@v1.2.1
-          with:
-            username: root
-            server: ghopse.com
-            port: 22 # default is 22
-            ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Install Dependencies #install
+        run: yarn
+     
+      - name: build
+        run:  yarn build
 
-
-            # will put all file under this path
-            local_path: ./* # default is ./*
-            # files will copy to under remote path
-            remote_path: /var/www//github.ghopse.com
-
-            # sftp args
-            args: '-o ConnectTimeout=5'
+      - name: deploy file to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          username: 'root'
+          server: 'ghopse.com'
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './*'
+          remote_path: '/var/www/parking.ghopse.com'
