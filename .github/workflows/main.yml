@@ -7,23 +7,16 @@ on:
 jobs:
   deploy_job:
     runs-on: ubuntu-latest
-    
-    name: build&deploy
+    name: deploy
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Install Dependencies
-        run: yarn
-     
-      - name: build
-        run:  yarn build
-
-      - name: deploy file to server
+      - name: deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
           username: 'root'
           server: 'ghopse.com'
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
           local_path: './*'
           remote_path: '/var/www/github.ghopse.com'
+          args: '-o ConnectTimeout=5'
