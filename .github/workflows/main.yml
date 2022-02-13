@@ -17,8 +17,6 @@ jobs:
           username: 'root'
           server: 'ghopse.com'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
-          local_path: 
-            - './*'
-            - '!./phpmyadmin'
+          local_path: './*'
           remote_path: '/var/www/github.ghopse.com'
           args: '-o ConnectTimeout=5'
