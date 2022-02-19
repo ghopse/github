@@ -28,7 +28,7 @@
 				</div>
 				<div class="option">
 					<img src="img/car_out.svg" alt="" class="logo">
-					<p>To your car</p>
+					<p>GOGOGO To your car</p>
 				</div>
 			</div>
 		</div>
