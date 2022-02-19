@@ -12,6 +12,7 @@
 		<title>Car Parking Navigation System</title>
 	</head>
 	<body>
+<<<<<<< HEAD
 	<section class="action-screen">
   <h4>
     Pick Your Action
@@ -164,4 +165,27 @@
   </div>
 </section>
 </body>
+=======
+<!-- 		<div id="splash">
+			<img src="img/logo.png" alt="" class="logo">
+		</div> -->
+		<div class="content">
+			<header class="app-header">
+				<div class="container">
+					<p>Pick your action</p>
+				</div>
+			</header>
+			<div class="grid-container">
+				<div class="option">
+					<img src="img/car_parking2.svg" alt="" class="logo">
+					<p>Save parking</p>
+				</div>
+				<div class="option">
+					<img src="img/car_out.svg" alt="" class="logo">
+					<p>To your car</p>
+				</div>
+			</div>
+		</div>
+	</body>
+>>>>>>> parent of 43c542f... change text
 </html>
