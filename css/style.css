@@ -1,329 +1,48 @@
+:root {
+	--primary-color:  #33ccff;
+	--secondary-color: #7c0000;
+}
+
+*{
+	box-sizing:  border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
-  margin: 0 auto;
-  color: #FFFFFF;
-  border: red solid 2px;
-  display: flex;
+body{
+	font-family: 'Roboto',sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: var(--primary-color);
 }
 
-section {
-  margin-right: 126px;
-  background: #A9A9A9;
-  width: 390px;
-  height: 844px;
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: none;
 }
 
-/* Action Screen*/
-.action-screen h4 {
-  margin: 59px 106px 19px 106px;
-  text-align: center;
-  font-size: 20px;
+.grid-container .option{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: none;
 }
 
-.save-parking, .to-your-car {
-  border-radius: 30px;
-  background: #C4C4C4;
-  width: 330px;
-  height: 330px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
 
-.save-parking {
-  position: absolute;
-}
-
-.to-your-car {
-  position: relative;
-  top: 348px;
-}
-
-.icon-1 {
-  border: white solid 2px;
-  margin-top: 95.75px;
-  margin-left: 121px;
-  width: 87.5px;
-  height: 87.5px;
-}
-
-.text-1 {
-  margin-top: 18.75px;
-  text-align: center;
-  font-size: 25px;
-}
-
-.icon-2 {
-  position: relative;
-  border: white solid 2px;
-  top: 95.75px;
-  margin-left: 121px;
-  width: 87.5px;
-  height: 87.5px;
-}
-
-.text-2 {
-  position: relative;
-  top: 88.75px;
-  text-align: center;
-  font-size: 25px;
-}
-
-/* Save parking input-1*/
-.to-action-screen-1 {
-  border: blue solid 2px;
-  width: 15px;
-  height: 36.5px;
-  margin-top: 24px;
-  margin-left: 30px;
-}
-
-.icon-3 {
-  border: white solid 2px;
-  margin-top: 141.25px;
-  margin-left: 151px;
-  width: 87.5px;
-  height: 87.5px;
-}
-
-.illustration-icon h4 {
-  margin: 18.75px auto;
-  text-align: center;
-  font-size: 20px;
-}
-
-.input-section {
-  max-width: 341px;
-  margin: 0px auto;
-}
-
-.text-3 {
-  margin: 148px 217px 0px 0px;
-  font-size: 15px;
-}
-
-input {
-  width: 94%;
-  height: 69px;
-  margin: 14px 0px;
-  padding-left: 18px;
-  background: #E9E9E9;
-  font-size: 20px;
-  border: none;
-}
-
-input::-webkit-input-placeholder {
-		color: #D1D1D1;
-    width: 50%;
-	}
-
-#btn-1 {
-  width: 341px;
-  height: 69px;
-  margin: 0px 29px 170px 0px;
-  background: #676767;
-  border: none;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-/* Save parking input-2*/
-.to-input-1 {
-  border: blue solid 2px;
-  width: 15px;
-  height: 36.5px;
-  margin-top: 24px;
-  margin-left: 30px;
-}
-
-.icon-4{
-  border: white solid 2px;
-  margin-top: 141.25px;
-  margin-left: 151px;
-  width: 87.5px;
-  height: 87.5px;
-}
-
-.text-4 {
-  margin: 148px 217px 0px 0px;
-  font-size: 15px;
-}
-
-#btn-2{
-  width: 341px;
-  height: 69px;
-  margin: 0px 29px 97px 0px;
-  background: #676767;
-  border: none;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-.previous-step h4 {
-  font-size: 20px;
-  text-align: center;
-}
-
-/* Save parking action*/
-.to-input-2 {
-  border: blue solid 2px;
-  width: 15px;
-  height: 36.5px;
-  margin-top: 24px;
-  margin-left: 30px;
-}
-
-.plate-no-info {
-  margin: 112px 70px 88px 69px;
-  width: 251px;
-  height: 80px;
-}
-
-.plate-no-info h4 {
-  text-align: center;
-  font-size: 20px;
-  margin: 0px;
-}
-
-.plate-no-info h3 {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 5px;
-}
-
-.parking-space-info {
-  margin: 0 auto;
-  width: 251px;
-  height: 80px;
-}
-
-.parking-space-info h4 {
-  text-align: center;
-  font-size: 20px;
-  margin: 0px;
-}
-
-.action-menu {
-  display: flex;
-  justify-content: space-around;
-}
-
-.parking-space-info h3 {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 5px;
-}
-
-.find-exit, .back-to-car {
-  border-radius: 30px;
-  background: #C4C4C4;
-  width: 169px;
-  height: 169px;
-}
-
-.icon-5 {
-  border: white solid 2px;
-  margin-top: 42.42px;
-  margin-left: 61.63px;
-  width: 45px;
-  height: 44.17px;
-}
-
-.text-5 {
-  margin-top: 9.42px;
-  margin-left: 11px;
-  width: 145px;
-  text-align: center;
-  font-size: 20px;
-}
-
-.icon-6 {
-  border: white solid 2px;
-  margin-top: 42.42px;
-  margin-left: 61.63px;
-  width: 45px;
-  height: 44.17px;
-}
-
-.text-6 {
-  margin-top: 9.42px;
-  margin-left: 11px;
-  width: 145px;
-  text-align: center;
-  font-size: 20px;
-}
-
-/* Map to exit */
-
-
-/*retrieve parking input-1 */
-.to-action-screen-2 {
-  border: blue solid 2px;
-  width: 15px;
-  height: 36.5px;
-  margin-top: 24px;
-  margin-left: 30px;
-}
-
-.icon-7 {
-  border: white solid 2px;
-  margin-top: 141.25px;
-  margin-left: 151px;
-  width: 87.5px;
-  height: 87.5px;
-}
-
-.text-7 {
-  margin: 148px 217px 0px 0px;
-  font-size: 15px;
-}
-
-#btn-3 {
-  width: 341px;
-  height: 69px;
-  margin: 0px 29px 170px 0px;
-  background: #676767;
-  border: none;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-/*retrieve parking input-2 */
-.to-retrieve-input-1 {
-  border: blue solid 2px;
-  width: 15px;
-  height: 36.5px;
-  margin-top: 24px;
-  margin-left: 30px;
-}
-
-.icon-8 {
-  border: white solid 2px;
-  margin-top: 141.25px;
-  margin-left: 151px;
-  width: 87.5px;
-  height: 87.5px;
-}
-
-.text-8 {
-  width: 100%;
-  margin: 148px 217px 0px 0px;
-  font-size: 15px;
-}
-
-#btn-4 {
-  width: 341px;
-  height: 69px;
-  margin: 0px 29px 97px 0px;
-  background: #676767;
-  border: none;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-.previous-step-2 h4 {
-  font-size: 20px;
-  text-align: center;
+.logo{
+	border: 5px groove #555;
+	border-radius: 10px;
+	width: 1.5em;
+	heigh: 1.5em;
+	font-size: 5em;
 }
