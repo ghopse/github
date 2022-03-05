@@ -199,29 +199,37 @@ input::-webkit-input-placeholder {
 /* Save parking input-2*/
 .to-input-1 {
   border: blue solid 2px;
-  width: 15px;
-  height: 36.5px;
-  margin-top: 24px;
-  margin-left: 30px;
+  width: 4%;
+  height: 4%;
+  margin-top: 2.8%;
+  margin-left: 7.6%;
 }
 
 .icon-4{
   border: white solid 2px;
-  margin-top: 141.25px;
-  margin-left: 151px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -90%);
   width: 87.5px;
   height: 87.5px;
 }
 
 .text-4 {
-  margin: 148px 217px 0px 0px;
+  position: relative;
+  top: 40%;
+  left: 20%;
+  transform: translate(-20%, -1%);
   font-size: 15px;
 }
 
 #btn-2{
-  width: 341px;
+  width: 100%;
   height: 69px;
-  margin: 0px 29px 97px 0px;
+  position: relative;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -1%);
   background: #676767;
   border: none;
   font-size: 20px;
