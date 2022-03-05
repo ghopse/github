@@ -18,12 +18,52 @@ body section:target {
   z-index:2;
 }
 
+@media (min-width: 500px) and (max-width: 750px) {
+  #action-screen h4 {
+    font-size: 25px;
+  }
+  .icon-1 {
+    width: 112px;
+    height: 112px;
+  }
+  .text-1 {
+    font-size: 30px;
+  }
+  .icon-2 {
+    width: 112px;
+    height: 112px;
+  }
+  .text-2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 700px) {
+  .icon-1 {
+    transform: translate(-50%, -70%);
+    width: 156.8px;
+    height: 156.8px;
+  }
+  .text-1 {
+    top: 60%;
+    transform: translate(-50%, -1%);
+  }
+  .icon-2 {
+    transform: translate(-50%, -70%);
+    width: 156.8px;
+    height: 156.8px;
+  }
+  .text-2 {
+    top: 60%;
+    transform: translate(-50%, -1%);
+}
+
 /* Action Screen*/
 #action-screen {
   z-index: 1;
 }
 
-.action-screen h4 {
+#action-screen h4 {
   margin-top: 7%;
   text-align: center;
   font-size: 20px;
