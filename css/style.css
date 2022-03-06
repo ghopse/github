@@ -237,7 +237,7 @@ input::-webkit-input-placeholder {
   color: #FFFFFF;
 }
 
-.previous-step h4 {
+.previous-step {
   font-size: 20px;
   text-align: center;
   position: relative;
@@ -388,7 +388,7 @@ input::-webkit-input-placeholder {
   color: #FFFFFF;
 }
 
-.previous-step-2 h4 {
+.previous-step-2 {
   font-size: 20px;
   text-align: center;
   position: relative;
