@@ -166,7 +166,7 @@ body section:target {
 }
 
 input {
-  width: 100%;
+  width: 98%;
   height: 69px;
   position: relative;
   top: 20%;
@@ -239,7 +239,10 @@ input::-webkit-input-placeholder {
 .previous-step h4 {
   font-size: 20px;
   text-align: center;
-  margin-top: 98%;
+  position: relative;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -1%);
 }
 
 /* Save parking action*/
@@ -389,5 +392,8 @@ input::-webkit-input-placeholder {
 .previous-step-2 h4 {
   font-size: 20px;
   text-align: center;
-  margin-top: 90%;
+  position: relative;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -1%);
 }
