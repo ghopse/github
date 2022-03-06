@@ -242,7 +242,7 @@ input::-webkit-input-placeholder {
   text-align: center;
   position: relative;
   left: 50%;
-  top: 75%;
+  top: 80%;
   transform: translate(-50%, -1%);
 }
 
@@ -393,6 +393,6 @@ input::-webkit-input-placeholder {
   text-align: center;
   position: relative;
   left: 50%;
-  top: 75%;
+  top: 80%;
   transform: translate(-50%, -1%);
 }
