@@ -26,6 +26,7 @@ a {
 img {
   max-width: 100%;
   max-height: 100%;
+  filter:  brightness(0) invert(1);
 }
 
 @media (max-width: 400px) {
@@ -67,11 +68,6 @@ img {
   height: 90px;
 }
 
-.img {
-  width: 90px;
-  height: 90px;
-}
-
 .text-1 {
   position: absolute;
   left: 50%;
@@ -99,7 +95,6 @@ img {
 
 /* Save parking input-1*/
 .to-action-screen-1 {
-  border: blue solid 2px;
   width: 4%;
   height: 4%;
   margin-top: 2.8%;
@@ -172,7 +167,6 @@ input::-webkit-input-placeholder {
 
 /* Save parking input-2*/
 .to-input-1 {
-  border: blue solid 2px;
   width: 4%;
   height: 4%;
   margin-top: 2.8%;
@@ -220,7 +214,6 @@ input::-webkit-input-placeholder {
 
 /* Save parking action*/
 .to-input-2 {
-  border: blue solid 2px;
   width: 4%;
   height: 4%;
   margin-top: 2.8%;
@@ -284,7 +277,6 @@ input::-webkit-input-placeholder {
 
 /*retrieve parking input-1 */
 .to-action-screen-2 {
-  border: blue solid 2px;
   width: 4%;
   height: 4%;
   margin-top: 2.8%;
@@ -323,7 +315,6 @@ input::-webkit-input-placeholder {
 
 /*retrieve parking input-2 */
 .to-retrieve-input-1 {
-  border: blue solid 2px;
   width: 4%;
   height: 4%;
   margin-top: 2.8%;
@@ -436,7 +427,6 @@ input::-webkit-input-placeholder {
   
   /* Save parking input-1*/
   .to-action-screen-1 {
-    border: blue solid 2px;
     width: 4%;
     height: 4%;
     margin-top: 2.8%;
@@ -509,7 +499,6 @@ input::-webkit-input-placeholder {
   
   /* Save parking input-2*/
   .to-input-1 {
-    border: blue solid 2px;
     width: 4%;
     height: 4%;
     margin-top: 2.8%;
@@ -557,7 +546,6 @@ input::-webkit-input-placeholder {
   
   /* Save parking action*/
   .to-input-2 {
-    border: blue solid 2px;
     width: 4%;
     height: 4%;
     margin-top: 2.8%;
@@ -621,7 +609,6 @@ input::-webkit-input-placeholder {
   
   /*retrieve parking input-1 */
   .to-action-screen-2 {
-    border: blue solid 2px;
     width: 4%;
     height: 4%;
     margin-top: 2.8%;
@@ -660,7 +647,6 @@ input::-webkit-input-placeholder {
   
   /*retrieve parking input-2 */
   .to-retrieve-input-1 {
-    border: blue solid 2px;
     width: 4%;
     height: 4%;
     margin-top: 2.8%;
@@ -773,7 +759,6 @@ input::-webkit-input-placeholder {
     
     /* Save parking input-1*/
     .to-action-screen-1 {
-      border: blue solid 2px;
       width: 4%;
       height: 4%;
       margin-top: 2.8%;
@@ -846,7 +831,6 @@ input::-webkit-input-placeholder {
     
     /* Save parking input-2*/
     .to-input-1 {
-      border: blue solid 2px;
       width: 4%;
       height: 4%;
       margin-top: 2.8%;
@@ -894,7 +878,6 @@ input::-webkit-input-placeholder {
     
     /* Save parking action*/
     .to-input-2 {
-      border: blue solid 2px;
       width: 4%;
       height: 4%;
       margin-top: 2.8%;
@@ -958,7 +941,6 @@ input::-webkit-input-placeholder {
     
     /*retrieve parking input-1 */
     .to-action-screen-2 {
-      border: blue solid 2px;
       width: 4%;
       height: 4%;
       margin-top: 2.8%;
@@ -997,7 +979,6 @@ input::-webkit-input-placeholder {
     
     /*retrieve parking input-2 */
     .to-retrieve-input-1 {
-      border: blue solid 2px;
       width: 4%;
       height: 4%;
       margin-top: 2.8%;
