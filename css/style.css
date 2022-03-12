@@ -23,65 +23,7 @@ a {
   color: #FFFFFF;
 }
 
-@media (max-width: 500px) {
-  #action-screen h4 {
-    font-size: 20px;
-  }
-  .icon-1 {
-    width: 87.5px;
-    height: 87.5px;
-  }
-  .text-1 {
-    font-size: 25px;
-  }
-  .icon-2 {
-    width: 87.5px;
-    height: 87.5px;
-  }
-  .text-2 {
-    font-size: 25px;
-  }
-}
-
-@media (min-width: 501px) and (max-width: 699px) {
-  #action-screen h4 {
-    font-size: 25px;
-  }
-  .icon-1 {
-    width: 112px;
-    height: 112px;
-  }
-  .text-1 {
-    font-size: 30px;
-  }
-  .icon-2 {
-    width: 112px;
-    height: 112px;
-  }
-  .text-2 {
-    font-size: 30px;
-  }
-}
-
-@media (min-width: 700px) {
-  .icon-1 {
-    transform: translate(-50%, -70%);
-    width: 156.8px;
-    height: 156.8px;
-  }
-  .text-1 {
-    top: 60%;
-    transform: translate(-50%, -1%);
-  }
-  .icon-2 {
-    transform: translate(-50%, -70%);
-    width: 156.8px;
-    height: 156.8px;
-  }
-  .text-2 {
-    top: 60%;
-    transform: translate(-50%, -1%);
-}
+@media (max-width: 400px) {
 
 /* Action Screen*/
 #action-screen {
@@ -416,3 +358,678 @@ input::-webkit-input-placeholder {
   top: 80%;
   transform: translate(-50%, -1%);
 }
+}
+
+@media (max-width: 700px) {
+
+  /* Action Screen*/
+  #action-screen {
+    z-index: 1;
+  }
+  
+  #action-screen h4 {
+    margin-top: 7%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .save-parking, .to-your-car {
+    border-radius: 30px;
+    background: #C4C4C4;
+    width: 85%;
+    height: 39%;
+    margin: 0 auto;
+  }
+  
+  .save-parking {
+    position: relative;
+  }
+  
+  .to-your-car {
+    position: relative;
+    margin-top: 2%;
+  }
+  
+  .icon-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 112px;
+    height: 112px;
+  }
+  
+  .text-1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -10%);
+  }
+  
+  .icon-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 112px;
+    height: 112px;
+  }
+  
+  .text-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -10%);
+  }
+  
+  /* Save parking input-1*/
+  .to-action-screen-1 {
+    border: blue solid 2px;
+    width: 4%;
+    height: 4%;
+    margin-top: 2.8%;
+    margin-left: 7.6%;
+  }
+  
+  .icon-3 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 112px;
+    height: 112px;
+  }
+  
+  .illustration-icon h4 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 25px;
+  }
+  
+  .input-section {
+    width: 87%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+  
+  .text-3 {
+    position: relative;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -1%);
+    font-size: 20px;
+  }
+  
+  input {
+    width: 96%;
+    height: 69px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    padding-left: 10px;
+    background: #E9E9E9;
+    font-size: 25px;
+    border: none;
+  }
+  
+  input::-webkit-input-placeholder {
+      color: #D1D1D1;
+      width: 50%;
+    }
+  
+  #btn-1 {
+    width: 100%;
+    height: 69px;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    background: #676767;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  
+  /* Save parking input-2*/
+  .to-input-1 {
+    border: blue solid 2px;
+    width: 4%;
+    height: 4%;
+    margin-top: 2.8%;
+    margin-left: 7.6%;
+  }
+  
+  .icon-4{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 112px;
+    height: 112px;
+  }
+  
+  .text-4 {
+    position: relative;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -1%);
+    font-size: 20px;
+  }
+  
+  #btn-2{
+    width: 100%;
+    height: 69px;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    background: #676767;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  
+  .previous-step {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -1%);
+  }
+  
+  /* Save parking action*/
+  .to-input-2 {
+    border: blue solid 2px;
+    width: 4%;
+    height: 4%;
+    margin-top: 2.8%;
+    margin-left: 7.6%;
+  }
+  
+  .plate-no-info {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+  }
+  
+  .plate-no-info h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+  }
+  
+  .plate-no-info h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+  }
+  
+  .parking-space-info {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+  }
+  
+  .parking-space-info h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20%;
+    margin-bottom: 0px;
+  }
+  
+  .parking-space-info h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+  }
+  
+  #btn-3{
+    width: 87%;
+    height: 69px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    background: #676767;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  
+  /* Map to exit */
+  
+  
+  /*retrieve parking input-1 */
+  .to-action-screen-2 {
+    border: blue solid 2px;
+    width: 4%;
+    height: 4%;
+    margin-top: 2.8%;
+    margin-left: 7.6%;
+  }
+  
+  .icon-5 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 112px;
+    height: 112px;
+  }
+  
+  .text-5 {
+    position: relative;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -1%);
+    font-size: 20px;
+  }
+  
+  #btn-4 {
+    width: 100%;
+    height: 69px;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    background: #676767;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  
+  /*retrieve parking input-2 */
+  .to-retrieve-input-1 {
+    border: blue solid 2px;
+    width: 4%;
+    height: 4%;
+    margin-top: 2.8%;
+    margin-left: 7.6%;
+  }
+  
+  .icon-6 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 112px;
+    height: 112px;
+  }
+  
+  .text-6 {
+    position: relative;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -1%);
+    font-size: 20px;
+  }
+  
+  #btn-5 {
+    width: 100%;
+    height: 69px;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    background: #676767;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  
+  .previous-step-2 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -1%);
+  }
+}
+
+@media (min-width: 700px) {
+
+    /* Action Screen*/
+    #action-screen {
+      z-index: 1;
+    }
+    
+    #action-screen h4 {
+      margin-top: 7%;
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    .save-parking, .to-your-car {
+      border-radius: 30px;
+      background: #C4C4C4;
+      width: 85%;
+      height: 39%;
+      margin: 0 auto;
+    }
+    
+    .save-parking {
+      position: relative;
+    }
+    
+    .to-your-car {
+      position: relative;
+      margin-top: 2%;
+    }
+    
+    .icon-1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 156.8px;
+      height: 156.8px;
+    }
+    
+    .text-1 {
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      font-size: 30px;
+      transform: translate(-50%, -1%);
+    }
+    
+    .icon-2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 156.8px;
+      height: 156.8px;
+    }
+    
+    .text-2 {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      font-size: 30px;
+      transform: translate(-50%, -1%);
+    }
+    
+    /* Save parking input-1*/
+    .to-action-screen-1 {
+      border: blue solid 2px;
+      width: 4%;
+      height: 4%;
+      margin-top: 2.8%;
+      margin-left: 7.6%;
+    }
+    
+    .icon-3 {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 156.8px;
+      height: 156.8px;
+    }
+    
+    .illustration-icon h4 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -1%);
+      font-size: 25px;
+    }
+    
+    .input-section {
+      width: 87%;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -10%);
+    }
+    
+    .text-3 {
+      position: relative;
+      top: 40%;
+      left: 20%;
+      transform: translate(-20%, -1%);
+      font-size: 20px;
+    }
+    
+    input {
+      width: 98%;
+      height: 69px;
+      position: relative;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -15%);
+      padding-left: 10px;
+      background: #E9E9E9;
+      font-size: 25px;
+      border: none;
+    }
+    
+    input::-webkit-input-placeholder {
+        color: #D1D1D1;
+        width: 50%;
+      }
+    
+    #btn-1 {
+      width: 100%;
+      height: 69px;
+      position: relative;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -1%);
+      background: #676767;
+      border: none;
+      font-size: 25px;
+      color: #FFFFFF;
+    }
+    
+    /* Save parking input-2*/
+    .to-input-1 {
+      border: blue solid 2px;
+      width: 4%;
+      height: 4%;
+      margin-top: 2.8%;
+      margin-left: 7.6%;
+    }
+    
+    .icon-4{
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 156.8px;
+      height: 156.8px;
+    }
+    
+    .text-4 {
+      position: relative;
+      top: 40%;
+      left: 20%;
+      transform: translate(-20%, -1%);
+      font-size: 20px;
+    }
+    
+    #btn-2{
+      width: 100%;
+      height: 69px;
+      position: relative;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -1%);
+      background: #676767;
+      border: none;
+      font-size: 25px;
+      color: #FFFFFF;
+    }
+    
+    .previous-step {
+      font-size: 20px;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      top: 80%;
+      transform: translate(-50%, -1%);
+    }
+    
+    /* Save parking action*/
+    .to-input-2 {
+      border: blue solid 2px;
+      width: 4%;
+      height: 4%;
+      margin-top: 2.8%;
+      margin-left: 7.6%;
+    }
+    
+    .plate-no-info {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -90%);
+    }
+    
+    .plate-no-info h4 {
+      text-align: center;
+      font-size: 25px;
+      margin: 0px;
+    }
+    
+    .plate-no-info h3 {
+      text-align: center;
+      font-size: 35px;
+      margin-top: 2%;
+    }
+    
+    .parking-space-info {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -90%);
+    }
+    
+    .parking-space-info h4 {
+      text-align: center;
+      font-size: 25px;
+      margin-top: 20%;
+      margin-bottom: 0px;
+    }
+    
+    .parking-space-info h3 {
+      text-align: center;
+      font-size: 35px;
+      margin-top: 2%;
+    }
+    
+    #btn-3{
+      width: 87%;
+      height: 69px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -1%);
+      background: #676767;
+      border: none;
+      font-size: 25px;
+      color: #FFFFFF;
+    }
+    
+    /* Map to exit */
+    
+    
+    /*retrieve parking input-1 */
+    .to-action-screen-2 {
+      border: blue solid 2px;
+      width: 4%;
+      height: 4%;
+      margin-top: 2.8%;
+      margin-left: 7.6%;
+    }
+    
+    .icon-5 {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 156.8px;
+      height: 156.8px;
+    }
+    
+    .text-5 {
+      position: relative;
+      top: 40%;
+      left: 20%;
+      transform: translate(-20%, -1%);
+      font-size: 20px;
+    }
+    
+    #btn-4 {
+      width: 100%;
+      height: 69px;
+      position: relative;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -1%);
+      background: #676767;
+      border: none;
+      font-size: 25px;
+      color: #FFFFFF;
+    }
+    
+    /*retrieve parking input-2 */
+    .to-retrieve-input-1 {
+      border: blue solid 2px;
+      width: 4%;
+      height: 4%;
+      margin-top: 2.8%;
+      margin-left: 7.6%;
+    }
+    
+    .icon-6 {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 156.8px;
+      height: 156.8px;
+    }
+    
+    .text-6 {
+      position: relative;
+      top: 40%;
+      left: 20%;
+      transform: translate(-20%, -1%);
+      font-size: 20px;
+    }
+    
+    #btn-5 {
+      width: 100%;
+      height: 69px;
+      position: relative;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -1%);
+      background: #676767;
+      border: none;
+      font-size: 25px;
+      color: #FFFFFF;
+    }
+    
+    .previous-step-2 {
+      font-size: 20px;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      top: 80%;
+      transform: translate(-50%, -1%);
+    }
+}  
