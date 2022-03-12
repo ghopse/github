@@ -67,6 +67,11 @@ img {
   height: 90px;
 }
 
+.img {
+  width: 90px;
+  height: 90px;
+}
+
 .text-1 {
   position: absolute;
   left: 50%;
