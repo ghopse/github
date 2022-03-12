@@ -23,6 +23,11 @@ a {
   color: #FFFFFF;
 }
 
+go-back {
+  width: 15px;
+  height: 15px;
+}
+
 @media (max-width: 400px) {
 
 /* Action Screen*/
@@ -58,8 +63,8 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -90%);
-  width: 87.5px;
-  height: 87.5px;
+  width: 90px;
+  height: 90px;
 }
 
 .text-1 {
@@ -101,8 +106,8 @@ a {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -90%);
-  width: 87.5px;
-  height: 87.5px;
+  width: 90px;
+  height: 90px;
 }
 
 .illustration-icon h4 {
@@ -286,8 +291,8 @@ input::-webkit-input-placeholder {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -90%);
-  width: 87.5px;
-  height: 87.5px;
+  width: 90px;
+  height: 90px;
 }
 
 .text-5 {
@@ -395,8 +400,8 @@ input::-webkit-input-placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -90%);
-    width: 112px;
-    height: 112px;
+    width: 118px;
+    height: 118px;
   }
   
   .text-1 {
@@ -438,8 +443,8 @@ input::-webkit-input-placeholder {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -90%);
-    width: 112px;
-    height: 112px;
+    width: 118px;
+    height: 118px;
   }
   
   .illustration-icon h4 {
@@ -623,8 +628,8 @@ input::-webkit-input-placeholder {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -90%);
-    width: 112px;
-    height: 112px;
+    width: 118px;
+    height: 118px;
   }
   
   .text-5 {
@@ -732,8 +737,8 @@ input::-webkit-input-placeholder {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -70%);
-      width: 156.8px;
-      height: 156.8px;
+      width: 160px;
+      height: 160px;
     }
     
     .text-1 {
@@ -775,8 +780,8 @@ input::-webkit-input-placeholder {
       top: 35%;
       left: 50%;
       transform: translate(-50%, -70%);
-      width: 156.8px;
-      height: 156.8px;
+      width: 160px;
+      height: 160px;
     }
     
     .illustration-icon h4 {
@@ -960,8 +965,8 @@ input::-webkit-input-placeholder {
       top: 35%;
       left: 50%;
       transform: translate(-50%, -70%);
-      width: 156.8px;
-      height: 156.8px;
+      width: 160px;
+      height: 160px;
     }
     
     .text-5 {
