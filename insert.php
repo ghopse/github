@@ -11,7 +11,7 @@ $slotNo = $_POST['slotNo'];
 
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
 
-if(isset($_POST['btn_1'])){
+if(isset($_POST['submit'])){
 
     if(!empty($plateNo)){
 
