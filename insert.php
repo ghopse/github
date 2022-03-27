@@ -15,7 +15,7 @@ if(isset($_POST['btn_1'])){
 
     if(!empty($plateNo)){
 
-        $query = "insert into form(plateNo) values('$plateNo')" ;
+        $query = "insert into record(plateNo) values('$plateNo')" ;
 
         $run = mysqli_query($conn,$query) or die(mysqli_error());
 
