@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$dbUsername = "carpark";
-$dbPassword = "C@rpark123";
-$dbName = "carpark_db";
+$host = 'localhost';
+$dbUsername = 'carpark';
+$dbPassword = 'C@rpark123';
+$dbName = 'carpark_db';
 
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
 
