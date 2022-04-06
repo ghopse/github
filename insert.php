@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost","ghopse","aaAA@@44..!!","carpark_db");
+$mysqli = new mysqli("localhost","carpark","C@rpark123","carpark_db");
 
 // Check connection
 if ($mysqli -> connect_errno) {
