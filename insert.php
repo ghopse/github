@@ -11,7 +11,7 @@
                 <?php echo $_POST["plateNo"]; ?>
             </div>
             <div class="find-exit">
-                <a href="github.ghopse.com/#map-to-exit"><button id="btn-3">Find the nearest exit</button></a>
+                <a href="#map-to-exit"><button id="btn-3">Find the nearest exit</button></a>
             </div>
         </section>
     </body>
