@@ -1,4 +1,5 @@
 <html>
+<link rel="stylesheet" href="css/style.css">
     <body>
         <section id="save-parking-action">
             <div class="to-input-2">
