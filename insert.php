@@ -8,6 +8,26 @@
                 </a>
             </div>
             <div class="plate-no-info">
+                <h4>Database Connection status</h4>
+                <h3>
+
+                <?php
+                $servername = "localhost";
+                $username = "carpark";
+                $password = "C@rpark123";
+
+                // Create connection
+                $conn = new mysqli($servername, $username, $password);
+
+                // Check connection
+                if ($conn->connect_error) {
+                    die("Connection failed: " . $conn->connect_error);
+                }
+                echo "Connected successfully";
+                ?>
+                    
+                </h3><br>
+
                 <h4>Your car plate number:</h4>
                 <h3><?php echo $_POST["plateNo"]; ?></h3>
             </div>
