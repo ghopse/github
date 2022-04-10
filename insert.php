@@ -29,7 +29,7 @@
                 $plateNo = mysqli_real_escape_string($conn, $_REQUEST['plateNo']);
 
                 // Attempt insert query execution
-                $sql = "INSERT INTO test (plateNo) VALUES ('$plateNo')";
+                $sql = "INSERT INTO record (plateNo) VALUES ('$plateNo')";
                 if(mysqli_query($conn, $sql)){
                     echo "Records added successfully.";
                 } else{
