@@ -27,9 +27,10 @@
 
                 // Escape user inputs for security
                 $plateNo = mysqli_real_escape_string($conn, $_REQUEST['plateNo']);
+                $slotNo = mysqli_real_escape_string($conn, $_REQUEST['slotNo']);
 
                 // Attempt insert query execution
-                $sql = "INSERT INTO test (plateNo) VALUES ('$plateNo')";
+                $sql = "INSERT INTO test2 (plateNo,slotNo) VALUES ('$plateNo','$slotNo')";
                 if(mysqli_query($conn, $sql)){
                     echo "Records added successfully.";
                 } else{
@@ -45,6 +46,9 @@
 
                 <h4>Your car plate number:</h4>
                 <h3><?php echo $_POST["plateNo"]; ?></h3>
+
+                <h4>Your parking space:</h4>
+                <h3><?php echo $_POST["slotNo"]; ?></h3>
             </div>
             <div class="find-exit">
                 <a href="index.html#map-to-exit"><button id="btn-3">Find the nearest exit</button></a>
