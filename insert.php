@@ -2,8 +2,8 @@
 <link rel="stylesheet" href="css/style.css">
     <body>
         <section id="save-parking-action">
-            <div class="to-input-2">
-                <a href="index.html#save-parking-input-2">
+            <div class="to-input-1">
+                <a href="index.html#save-parking-input-1">
                     <img class="go-back" src="img/previous_page.svg" atl="">
                 </a>
             </div>
