@@ -121,7 +121,7 @@ img {
 .input-section {
   width: 87%;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -10%);
 }
@@ -453,7 +453,7 @@ input::-webkit-input-placeholder {
   .input-section {
     width: 87%;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -10%);
   }
@@ -785,7 +785,7 @@ input::-webkit-input-placeholder {
     .input-section {
       width: 87%;
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -10%);
     }
