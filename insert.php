@@ -1,6 +1,43 @@
 <html>
 <link rel="stylesheet" href="css/style.css">
-    <body>
+<script>
+    function alertUser(msg) {
+        alert(msg);
+    }
+</script>
+    <body onload="alertUser(
+        <?php
+        $servername = "localhost";
+        $username = "carpark";
+        $password = "C@rpark123";
+        $dbname = "carpark_db";
+
+        // Create connection
+        $conn = mysqli_connect($servername, $username, $password,$dbname);
+
+        // Check connection
+        if (!$conn) {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+
+        // Escape user inputs for security
+        $plateNo = mysqli_real_escape_string($conn, $_REQUEST['plateNo']);
+        $slotNo = mysqli_real_escape_string($conn, $_REQUEST['slotNo']);
+
+        // Attempt insert query execution
+        $sql = "INSERT INTO test2 (plateNo,slotNo) VALUES ('$plateNo','$slotNo')";
+        if(mysqli_query($conn, $sql)){
+            echo "Records added successfully.";
+        } else{
+            echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
+        }
+
+        // Close connection
+        mysqli_close($conn);
+        ?>
+
+        )">
+
         <section id="save-parking-action">
             <div class="to-input-1">
                 <a href="index.html#save-parking-input-1">
@@ -9,41 +46,10 @@
             </div>
             <div class="plate-no-info">
 
-                <script>alert(
 
-                <?php
-                $servername = "localhost";
-                $username = "carpark";
-                $password = "C@rpark123";
-                $dbname = "carpark_db";
 
-                // Create connection
-                $conn = mysqli_connect($servername, $username, $password,$dbname);
 
-                // Check connection
-                if (!$conn) {
-                    die("Connection failed: " . mysqli_connect_error());
-                }
 
-                // Escape user inputs for security
-                $plateNo = mysqli_real_escape_string($conn, $_REQUEST['plateNo']);
-                $slotNo = mysqli_real_escape_string($conn, $_REQUEST['slotNo']);
-
-                // Attempt insert query execution
-                $sql = "INSERT INTO test2 (plateNo,slotNo) VALUES ('$plateNo','$slotNo')";
-                if(mysqli_query($conn, $sql)){
-                    echo "Records added successfully.";
-                } else{
-                    echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
-                }
-
-                // Close connection
-                mysqli_close($conn);
-                ?>
-
-                )
-
-                </script>
 
 
                 <h4>Your car plate number:</h4>
