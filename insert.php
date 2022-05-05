@@ -5,7 +5,12 @@
         alert(msg);
     }
 </script>
-    <body onload="alertUser('
+    <body onload="alertUser('Check Database Connection')">
+
+
+
+/* add later
+
                 <?php
         $servername = "localhost";
         $username = "carpark";
@@ -35,9 +40,9 @@
         // Close connection
         mysqli_close($conn);
         ?>
-'
 
-        )">
+*/
+
 
         <section id="save-parking-action">
             <div class="to-input-1">
@@ -46,12 +51,6 @@
                 </a>
             </div>
             <div class="plate-no-info">
-
-
-
-
-
-
 
                 <h4>Your car plate number:</h4>
                 <h3><?php echo $_POST["plateNo"]; ?></h3>
