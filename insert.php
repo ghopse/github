@@ -8,8 +8,8 @@
                 </a>
             </div>
             <div class="plate-no-info">
-                <h4>Database Connection Status:</h4>
-                <h3>
+
+                <script>alert("
 
                 <?php
                 $servername = "localhost";
@@ -41,8 +41,10 @@
                 mysqli_close($conn);
                 ?>
 
-                    
-                </h3><br>
+                ")
+
+                </script>
+
 
                 <h4>Your car plate number:</h4>
                 <h3><?php echo $_POST["plateNo"]; ?></h3>
@@ -50,6 +52,7 @@
                 <h4>Your parking space:</h4>
                 <h3><?php echo $_POST["slotNo"]; ?></h3>
             </div>
+
             <div class="find-exit">
                 <a href="index.html#map-to-exit"><button id="btn-3">Find the nearest exit</button></a>
             </div>
