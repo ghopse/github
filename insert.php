@@ -8,8 +8,8 @@
 
 
 
-
-$comment = "                <?php
+<script>
+var msg2 = "                <?php
         $servername = "localhost";
         $username = "carpark";
         $password = "C@rpark123";
@@ -39,8 +39,9 @@ $comment = "                <?php
         mysqli_close($conn);
         ?> ";
 
-    <body onload="alertUser($comment)">
+    <body onload="alertUser(msg2)">
 
+</script>
 
         <section id="save-parking-action">
             <div class="to-input-1">
