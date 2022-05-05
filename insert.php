@@ -9,7 +9,7 @@
             </div>
             <div class="plate-no-info">
 
-                <script>alert("
+                <script>alert(
 
                 <?php
                 $servername = "localhost";
@@ -41,7 +41,7 @@
                 mysqli_close($conn);
                 ?>
 
-                ")
+                )
 
                 </script>
 
