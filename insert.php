@@ -5,8 +5,8 @@
         alert(msg);
     }
 </script>
-    <body onload="alertUser(
-        <?php
+    <body onload="alertUser('
+                <?php
         $servername = "localhost";
         $username = "carpark";
         $password = "C@rpark123";
@@ -35,6 +35,7 @@
         // Close connection
         mysqli_close($conn);
         ?>
+'
 
         )">
 
