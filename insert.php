@@ -5,13 +5,11 @@
         alert(msg);
     }
 </script>
-    <body onload="alertUser('Check Database Connection')">
 
 
 
-/* add later
 
-                <?php
+$comment = "                <?php
         $servername = "localhost";
         $username = "carpark";
         $password = "C@rpark123";
@@ -39,9 +37,9 @@
 
         // Close connection
         mysqli_close($conn);
-        ?>
+        ?> ";
 
-*/
+    <body onload="alertUser($comment)">
 
 
         <section id="save-parking-action">
