@@ -34,9 +34,20 @@
                         die("Connection failed: " . mysqli_connect_error());
                     }
 
+                    // Query data
+                    $sql = "SELECT * FROM test2 WHERE plateNo = $_POST["plateNo"]";
+                    $result = mysqli_query($conn, $sql);
+                    $resultCheck = mysqli_num_rows($result);
+
+                    if ($resultcheck > 0) {
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo $row['slotNo']
+                        }
+                    }
+
                     // Close connection
                     mysqli_close($conn);
-                    ?> ";
+                    ?>
                 </h3>
             </div>
 
