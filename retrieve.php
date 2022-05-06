@@ -41,8 +41,7 @@
 
                     if ($resultcheck > 0) {
                         while ($row = mysqli_fetch_assoc($result)) {
-                            echo $row['slotNo']
-                            
+                            echo $row['slotNo'] . "<br>";
                         } 
                     }
 
