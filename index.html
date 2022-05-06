@@ -53,7 +53,9 @@
           <h5 class="text-3">Your car plate number</h5>
           <input class = "input1" style="text-transform: uppercase;" type="text" name="plateNo" placeholder="EX. ABC1234">
           <h5 class="text-3">Your parking space number</h5>
-          <input class = "input2" style="text-transform: uppercase;" type="text" name="slotNo" placeholder="EX. A10">
+          <input class = "input2" type="text" name="slotNo" placeholder="EX. A10">
+<!--          <input class = "input2" style="text-transform: uppercase;" type="text" name="slotNo" placeholder="EX. A10">
+-->
           <input type="submit" value="Submit" id="btn-1">
         </div>
       </form>
@@ -107,6 +109,7 @@
    </section>
 
    <section id="retrieve-parking-input-1">
+    <form action="retrieve.php" method="post">
      <div class="to-action-screen-2">
        <a href="#action-screen">
          <img class="go-back" src="img/previous_page.svg" atl="">
@@ -120,10 +123,15 @@
      </div>
      <div class="input-section">
        <h5 class="text-5">Car plate number</h5>
-       <input type="text" placeholder="EX. AB1234">
-       <a href="#retrieve-parking-input-2"><button id="btn-4">Next</button></a>
+       <input class = "input3" type="text" name="PlateNo" placeholder="EX. AB1234">
+       <input type="submit" value="Submit" id="btn-4">
+
+<!--       <input type="text" placeholder="EX. AB1234">
+       <a href="#retrieve-parking-input-2"><button id="btn-4">Next</button></a>    -->
+
      </div>
    </section>
+
 
    <section id="retrieve-parking-input-2">
      <div class="to-retrieve-input-1">
