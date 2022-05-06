@@ -16,7 +16,7 @@
 
             <div class="plate-no-info">
                 <h4>Your car plate number is:</h4>
-                <h3><?php echo $_POST["plateNo"]; ?></h3>
+                <h3><?php echo $_REQUEST["plateNo"]; ?></h3>
 
                 <h4>Your parking space is:</h4>
                 <h3>
@@ -35,7 +35,7 @@
                     }
 
                     /* Query data
-                    $sql = "SELECT * FROM test2 WHERE plateNo = $_POST["plateNo"]";
+                    $sql = "SELECT * FROM test2 WHERE plateNo = $_REQUEST["plateNo"]";
                     $result = mysqli_query($conn, $sql);
                     $resultCheck = mysqli_num_rows($result);
 
