@@ -35,7 +35,7 @@
                     }
 
                     // Query data
-                    $sql = "SELECT * FROM test2 WHERE plateNo = $_REQUEST["plateNo"]";
+                    $sql = "SELECT * FROM test2 WHERE plateNo = $_REQUEST["plateNo"];";
                     $result = mysqli_query($conn, $sql);
                     $resultCheck = mysqli_num_rows($result);
 
@@ -44,7 +44,7 @@
                             echo $row['slotNo'] . "<br>";
                         } 
                     }
-
+ 
                     
 
                     // Close connection
