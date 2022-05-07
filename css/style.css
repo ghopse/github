@@ -134,6 +134,19 @@ form label {
   font-size: 15px;
 }
 
+#input1, #input2 {
+  width: 98%;
+  height: 69px;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  padding-left: 10px;
+  background: #E9E9E9;
+  font-size: 20px;
+  border: none;
+}
+
 input {
   width: 98%;
   height: 69px;
@@ -458,7 +471,7 @@ input::-webkit-input-placeholder {
     transform: translate(-50%, -10%);
   }
   
-  .text-3 {
+  form label {
     position: relative;
     top: 40%;
     left: 20%;
@@ -466,6 +479,19 @@ input::-webkit-input-placeholder {
     font-size: 20px;
   }
   
+  #input1, #input2 {
+    width: 98%;
+    height: 69px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    padding-left: 10px;
+    background: #E9E9E9;
+    font-size: 20px;
+    border: none;
+  }
+
   input {
     width: 96%;
     height: 69px;
@@ -790,12 +816,25 @@ input::-webkit-input-placeholder {
       transform: translate(-50%, -10%);
     }
     
-    .text-3 {
+    form label {
       position: relative;
       top: 40%;
       left: 20%;
       transform: translate(-20%, -1%);
       font-size: 20px;
+    }
+    
+    #input1, #input2 {
+      width: 98%;
+      height: 69px;
+      position: relative;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -15%);
+      padding-left: 10px;
+      background: #E9E9E9;
+      font-size: 20px;
+      border: none;
     }
     
     input {

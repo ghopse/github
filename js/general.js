@@ -3,12 +3,12 @@ $(document).ready(function () {
   // Validate plateNo
       $('#plateNoCheck').hide();   
       let plateNoError = true;
-      $('.input1').keyup(function () {
+      $('#input1').keyup(function () {
           validatePlateNo();
       });
        
       function validatePlateNo() {
-        let plateNoValue = $('.input1').val();
+        let plateNoValue = $('#input1').val();
         if (plateNoValue.length === '') {
         $('#plateNoCheck').show();
             plateNoError = false;
