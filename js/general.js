@@ -1,32 +1,30 @@
-$(function() {
-  
-  $("form[name='registration']").validate({
-    // Specify validation rules
-    rules: {
-      // The key name on the left side is the name attribute
-      // of an input field. Validation rules are defined
-      // on the right side
-      slotNo: "required",
-      plateNo: {
-        required: true,
-        maxlength: 10
+$(document).ready(function () {
+    
+  // Validate plateNo
+      $('#plateNoCheck').hide();   
+      let plateNoError = true;
+      $('.input1').keyup(function () {
+          validatePlateNo();
+      });
+       
+      function validatePlateNo() {
+        let plateNoValue = $('.input1').val();
+        if (plateNoValue.length === '') {
+        $('#plateNoCheck').show();
+            plateNoError = false;
+            return false;
+        }
+        else if (plateNoValue.length > 10) {
+            $('#plateNoCheck').show();
+            $('#plateNoCheck').html
+  ("**length of car playe number must be under 10");
+            plateNoError = false;
+            return false;
+        }
+        else {
+            $('#plateNoCheck').hide();
+        }
       }
-    },
-    // Specify validation error messages
-    messages: {
-      slotNo: "Please enter your parking space number",
-      plateNo: {
-        required: "Please enter your car plate number",
-        maxlength: "Your car plate number can't be over 10 characters long"
-      },
-    },
-    // Make sure the form is submitted to the destination defined
-    // in the "action" attribute of the form when valid
-    submitHandler: function(form) {
-      form.submit();
-    }
-  });
-});
 
 
 

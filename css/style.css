@@ -126,7 +126,7 @@ img {
   transform: translate(-50%, -10%);
 }
 
-.text-3 {
+form label {
   position: relative;
   top: 40%;
   left: 20%;
