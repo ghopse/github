@@ -58,9 +58,6 @@ $(document).ready(function () {
     
 });
 
-});
-
-
 $(function() {
   var availableSlots = [
     "A1",
@@ -77,6 +74,11 @@ $(function() {
     source: availableSlots
   });
 });
+
+});
+
+
+
 
 
 //let btn1 = document.querySelector('#btn-1')
