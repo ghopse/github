@@ -17,7 +17,7 @@ $(document).ready(function () {
         else if (plateNoValue.length > 10) {
             $('#plateNoCheck').show();
             $('#plateNoCheck').html
-  ("**length of car playe number must be under 10");
+  ("**length of car plate number must be under 10");
             plateNoError = false;
             return false;
         }

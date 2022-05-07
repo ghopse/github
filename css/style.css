@@ -126,10 +126,10 @@ img {
   transform: translate(-50%, -10%);
 }
 
-form label {
+.text-3 {
   position: relative;
   top: 40%;
-  left: 20%;
+  left: 0;
   transform: translate(-20%, -1%);
   font-size: 15px;
 }
@@ -138,9 +138,9 @@ form label {
   width: 98%;
   height: 69px;
   position: relative;
-  top: 20%;
+  top: 100%;
   left: 50%;
-  transform: translate(-50%, -15%);
+  transform: translate(-50%, 8%);
   padding-left: 10px;
   background: #E9E9E9;
   font-size: 20px;
@@ -471,21 +471,21 @@ input::-webkit-input-placeholder {
     transform: translate(-50%, -10%);
   }
   
-  form label {
+  .text-3 {
     position: relative;
     top: 40%;
-    left: 20%;
+    left: 0;
     transform: translate(-20%, -1%);
-    font-size: 20px;
+    font-size: 15px;
   }
   
   #input1, #input2 {
     width: 98%;
     height: 69px;
     position: relative;
-    top: 20%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -15%);
+    transform: translate(-50%, 8%);
     padding-left: 10px;
     background: #E9E9E9;
     font-size: 20px;
@@ -816,27 +816,27 @@ input::-webkit-input-placeholder {
       transform: translate(-50%, -10%);
     }
     
-    form label {
+    .text-3 {
       position: relative;
       top: 40%;
-      left: 20%;
+      left: 0;
       transform: translate(-20%, -1%);
-      font-size: 20px;
+      font-size: 15px;
     }
     
     #input1, #input2 {
       width: 98%;
       height: 69px;
       position: relative;
-      top: 20%;
+      top: 100%;
       left: 50%;
-      transform: translate(-50%, -15%);
+      transform: translate(-50%, 8%);
       padding-left: 10px;
       background: #E9E9E9;
       font-size: 20px;
       border: none;
     }
-    
+
     input {
       width: 98%;
       height: 69px;
