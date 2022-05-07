@@ -58,6 +58,8 @@ $(document).ready(function () {
     
 });
 
+});
+
 $(function(){
   $('#form').validate({
     rules: {
@@ -96,14 +98,10 @@ $(function() {
     "C2",
     "C3"
   ];
-  $( "#input2" ).autocomplete({
+  $('#input2').autocomplete({
     source: availableSlots
   });
 });
-
-});
-
-
 
 
 //let btn1 = document.querySelector('#btn-1')
