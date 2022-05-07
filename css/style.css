@@ -151,6 +151,12 @@ img {
   margin-bottom: 5%;
 }
 
+#plateNoCheck {
+  position: relative;
+  left: 0;
+  transform: translate(-20%, -10%);
+}
+
 input {
   width: 98%;
   height: 69px;
@@ -501,6 +507,12 @@ input::-webkit-input-placeholder {
     margin-bottom: 5%;
   }
 
+  #plateNoCheck {
+    position: relative;
+    left: 0;
+    transform: translate(-20%, -10%);
+  }
+
   input {
     width: 96%;
     height: 69px;
@@ -849,6 +861,12 @@ input::-webkit-input-placeholder {
 
     #input1 {
       margin-bottom: 5%;
+    }
+
+    #plateNoCheck {
+      position: relative;
+      left: 0;
+      transform: translate(-20%, -10%);
     }
 
     input {

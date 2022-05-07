@@ -60,31 +60,6 @@ $(document).ready(function () {
 
 });
 
-$(function(){
-  $('#form').validate({
-    rules: {
-      plateNo: {
-        required: true
-      },
-      slotNo:{
-        required: true,
-      },
-    },
-    messages: {
-      plateNo: {
-        required:'required'
-      },
-      slotNo: {
-        required:'required',
-      },
-    },
-    submitHandler: function(form) {
-      form.submit();
-    }
-});
-
-
-});
 
 $(function() {
   var availableSlots = [
