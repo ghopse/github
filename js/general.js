@@ -9,7 +9,7 @@ $(document).ready(function () {
        
       function validatePlateNo() {
         let plateNoValue = $('#input1').val();
-        if (plateNoValue.length === '') {
+        if (plateNoValue.length == '') {
         $('#plateNoCheck').show();
             plateNoError = false;
             return false;
@@ -35,7 +35,7 @@ $(document).ready(function () {
    
   function validateSlotNo() {
     let slotNoValue = $('#input2').val();
-    if (slotNoValue.length === '') {
+    if (slotNoValue.length == '') {
     $('#slotNoCheck').show();
         slotNoError = false;
         return false;
