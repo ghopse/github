@@ -147,6 +147,10 @@ img {
   border: none;
 }
 
+#input1 {
+  margin-bottom: 20%;
+}
+
 input {
   width: 98%;
   height: 69px;
@@ -176,6 +180,7 @@ input::-webkit-input-placeholder {
   border: none;
   font-size: 20px;
   color: #FFFFFF;
+  margin-top: 20%;
 }
 
 /* Save parking input-2*/
@@ -492,6 +497,10 @@ input::-webkit-input-placeholder {
     border: none;
   }
 
+  #input1 {
+    margin-bottom: 20%;
+  }
+
   input {
     width: 96%;
     height: 69px;
@@ -521,6 +530,7 @@ input::-webkit-input-placeholder {
     border: none;
     font-size: 25px;
     color: #FFFFFF;
+    margin-top: 20%;
   }
   
   /* Save parking input-2*/
@@ -837,6 +847,10 @@ input::-webkit-input-placeholder {
       border: none;
     }
 
+    #input1 {
+      margin-bottom: 20%;
+    }
+
     input {
       width: 98%;
       height: 69px;
@@ -866,6 +880,7 @@ input::-webkit-input-placeholder {
       border: none;
       font-size: 25px;
       color: #FFFFFF;
+      margin-top: 20%;
     }
     
     /* Save parking input-2*/
