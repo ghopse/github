@@ -9,6 +9,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> 
 		<link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="js/general.js"></script>
 		<title>Car Parking Navigation System</title>
 	</head>
 	<body>
@@ -50,19 +53,21 @@
         </div>  -->
 
         <div class="input-section">
-          <h5 class="text-3">Your car plate number</h5>
+          <form action="" name="registration">
+          <label class="text-3" for="plateNo">Your car plate number</label>
           <input class = "input1" type="text" name="plateNo" placeholder="EX. ABC1234">
 
 <!--         <input class = "input1" style="text-transform: uppercase;" type="text" name="plateNo" placeholder="EX. ABC1234">
 -->
 
-          <h5 class="text-3">Your parking space number</h5>
+          <label class="text-3" for="slotNo">Your parking space number</label>
           <input class = "input2" type="text" name="slotNo" placeholder="EX. A10">
 <!--          <input class = "input2" style="text-transform: uppercase;" type="text" name="slotNo" placeholder="EX. A10">
 -->
           <input type="submit" value="Submit" id="btn-1">
+        </form>
         </div>
-      </form>
+      
     </section>
 
 <!--   <section id="save-parking-input-2">
