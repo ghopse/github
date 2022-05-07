@@ -148,7 +148,7 @@ img {
 }
 
 #input1 {
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 input {
@@ -180,7 +180,7 @@ input::-webkit-input-placeholder {
   border: none;
   font-size: 20px;
   color: #FFFFFF;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 /* Save parking input-2*/
@@ -498,7 +498,7 @@ input::-webkit-input-placeholder {
   }
 
   #input1 {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 
   input {
@@ -530,7 +530,7 @@ input::-webkit-input-placeholder {
     border: none;
     font-size: 25px;
     color: #FFFFFF;
-    margin-top: 20%;
+    margin-top: 5%;
   }
   
   /* Save parking input-2*/
@@ -848,7 +848,7 @@ input::-webkit-input-placeholder {
     }
 
     #input1 {
-      margin-bottom: 20%;
+      margin-bottom: 10%;
     }
 
     input {
@@ -880,7 +880,7 @@ input::-webkit-input-placeholder {
       border: none;
       font-size: 25px;
       color: #FFFFFF;
-      margin-top: 20%;
+      margin-top: 5%;
     }
     
     /* Save parking input-2*/
