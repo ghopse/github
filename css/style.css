@@ -153,8 +153,7 @@ img {
 
 #plateNoCheck {
   position: relative;
-  left: 0;
-  transform: translate(-20%, -10%);
+  transform: translateY(-15%);
 }
 
 input {
@@ -509,8 +508,7 @@ input::-webkit-input-placeholder {
 
   #plateNoCheck {
     position: relative;
-    left: 0;
-    transform: translate(-20%, -10%);
+    transform: translateY(-15%);
   }
 
   input {
@@ -865,8 +863,7 @@ input::-webkit-input-placeholder {
 
     #plateNoCheck {
       position: relative;
-      left: 0;
-      transform: translate(-20%, -10%);
+      transform: translateY(-15%);
     }
 
     input {
