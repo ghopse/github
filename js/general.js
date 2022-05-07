@@ -25,7 +25,17 @@ $(document).ready(function () {
             $('#plateNoCheck').hide();
         }
       }
-
+  // Submit button
+  $('#btn-1').click(function () {
+    validatePlateNo();
+    
+    if (plateNoError == true) {
+        return true;
+    } else {
+        return false;
+    }
+});
+});
 
 
 
