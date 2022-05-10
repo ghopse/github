@@ -189,6 +189,11 @@ input::-webkit-input-placeholder {
 }
 
 /* Save parking input-2*/
+
+#save-parking-input-2 {
+  display: none;
+}
+
 .to-input-1 {
   width: 4%;
   height: 4%;
@@ -544,6 +549,11 @@ input::-webkit-input-placeholder {
   }
   
   /* Save parking input-2*/
+
+  #save-parking-input-2 {
+    display: none;
+  }
+
   .to-input-1 {
     width: 4%;
     height: 4%;
@@ -899,6 +909,11 @@ input::-webkit-input-placeholder {
     }
     
     /* Save parking input-2*/
+
+    #save-parking-input-2 {
+      display: none;
+    }
+    
     .to-input-1 {
       width: 4%;
       height: 4%;

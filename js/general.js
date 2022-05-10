@@ -45,12 +45,11 @@ $(document).ready(function () {
     }
   }
 
-  // Submit button
+  // Submit button btn-1
   $('#btn-1').click(function () {
     validatePlateNo();
-    validateSlotNo();
     
-    if ((plateNoError === true) && (slotNoError === true)) {
+    if (plateNoError === true) {
         return true;
     } else {
         return false;
@@ -58,6 +57,19 @@ $(document).ready(function () {
     
 });
 
+// Submit button btn-2
+$('#btn-2').click(function () {
+  validateSlotNo();
+  
+  if (slotNoError === true) {
+      return true;
+  } else {
+      return false;
+  }
+  
+});
+
+// auto complete
 $(function() {
   var availableSlots = [
     "A1",
@@ -73,6 +85,20 @@ $(function() {
   $('#input2').autocomplete({
     source: availableSlots
   });
+});
+
+// transition from input-1 to input-2
+$("#btn-1").click(function(){
+  $("#save-parking-input-1").hide();
+  $("#save-parking-input-2").fadeIn(200);
+ // console.log("Yes");
+});
+
+// transition from input-2 to input-1
+$(".to-input-1").click(function(){
+  $("#save-parking-input-2").hide();
+  $("#save-parking-input-1").fadeIn(200);
+ // console.log("Yes");
 });
 
 });

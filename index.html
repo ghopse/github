@@ -14,6 +14,9 @@
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
   integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k="
   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script src="js/general.js"></script>
 		<title>Car Parking Navigation System</title>
@@ -39,6 +42,7 @@
       </a>
     </section>
 
+    <form id="form1">
     <section id="save-parking-input-1">
       <form action="insert.php" method="post">
         <div class="to-action-screen-1">
@@ -47,58 +51,41 @@
           </a>
         </div>
 
-<!--        <div class="illustration-icon"> -->
-
           <div class="icon-3">
             <img src="img/car_plate.svg" atl="car plate">
           </div>
 
-<!--          <h4>Please enter your car plate number</h4>
-        </div>  -->
-
         <div class="input-section">
-          <form id="form">
+          <form id="form2">
           <label class="text-3" for="plateNo">Your car plate number</label>
           <input id = "input1" type="text" name="plateNo" placeholder="EX. ABC1234">
           <h5 id="plateNoCheck" style="color:red;">car plate number is missing</h5>
-
-<!--         <input class = "input1" style="text-transform: uppercase;" type="text" name="plateNo" placeholder="EX. ABC1234">
--->
-
-          <label class="text-3" for="slotNo">Your parking space number</label>
-          <input id = "input2" type="text" name="slotNo" placeholder="EX. A10">
-          <h5 id="slotNoCheck" style="color:red;">parking space number is missing</h5>
-<!--          <input class = "input2" style="text-transform: uppercase;" type="text" name="slotNo" placeholder="EX. A10">
--->
           <input type="submit" value="Submit" id="btn-1">
         </form>
         </div>
       
     </section>
 
-<!--   <section id="save-parking-input-2">
+<section id="save-parking-input-2">
      <div class="to-input-1">
-       <a href="#save-parking-input-1">
          <img class="go-back" src="img/previous_page.svg" atl="">
-       </a>
       </div>
      <div class="illustration-icon">
        <div class="icon-4">
          <img src="img/parking_space.svg" atl="parking space">
        </div>
-       <h4>Please enter parking space</h4>
       </div>
       <div class="input-section">
-       <h5 class="text-4">Parking space</h5>
-       <input type="text" name="slotNo" placeholder="EX. B1A01">
+        <form id="form3">
+          <label class="text-3" for="slotNo">Your parking space number</label>
+          <input id = "input2" type="text" name="slotNo" placeholder="EX. A10">
+          <h5 id="slotNoCheck" style="color:red;">parking space number is missing</h5>
        <a href="#save-parking-action"><button id="btn-2">Save now</button></a>
+      </form>
       </div>
-      <div class="previous-step">
-       <h4><a href="#save-parking-input-1">Previous step</a></h4>
-      </div>
+      
    </section>
-
--->
+  </form>
 
    <section id="save-parking-action">
      <div class="to-input-2">
