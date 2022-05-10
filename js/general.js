@@ -88,17 +88,21 @@ $(function() {
 });
 
 // transition from input-1 to input-2
+
+$(function() {
 $("#btn-1").click(function(){
   $("#save-parking-input-1").hide();
   $("#save-parking-input-2").fadeIn(200);
- // console.log("Yes");
+ console.log("Yes");
 });
 
 // transition from input-2 to input-1
 $(".to-input-1").click(function(){
   $("#save-parking-input-2").hide();
   $("#save-parking-input-1").fadeIn(200);
- // console.log("Yes");
+ console.log("Yes");
+});
+
 });
 
 });
